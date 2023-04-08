@@ -1,20 +1,14 @@
 body {
     background-color: #E9f5E9;
-}
-
-.LogoW {
-    color: blue;
-}
-
-.LogoS {
-    color: black;
-}
-
-.Studio {
-    color: aqua;
+    font-family: Roboto;
 }
 
 button {
-    
+    cursor: pointer;
     color: #4D5AE5;
+}
+
+.contacts a:hover,
+.contacts a:focus {
+ color: red;
 }
