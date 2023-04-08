@@ -1,6 +1,7 @@
-body {
+:root  {
     background-color: #FFFFFF;
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
+    color: #434455;
 }
 
 button {
@@ -33,18 +34,29 @@ button {
 
 .web {
     color: #4D5AE5;
-    font-family: Raleway;
-    font-style: ExtraBold;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
     font-size: 18 px;
-    line-height: .99;
+    line-height: 1.17;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
 .studio {
-    color: #F4F4FD;
-    font-family: Raleway;
-    font-style: ExtraBold;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
     font-size: 18 px;
-    line-height: .99;
+    line-height: 1.17;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.up {
+    color: #2E2F42;
+}
+
+.down {
+    color: #F4F4FD;
 }
 
 .textstudio {
