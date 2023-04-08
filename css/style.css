@@ -1,5 +1,5 @@
 body {
-    background-color: #E9f5E9;
+    background-color: #FFFFFF;
     font-family: Roboto;
 }
 
@@ -8,7 +8,62 @@ button {
     color: #4D5AE5;
 }
 
-.contacts a:hover,
-.contacts a:focus {
+.nav,
+.contacts {
+    color: #2E2F42;
+}
+
+.contacts:hover,
+.contacts:focus {
  color: red;
+}
+
+.butt {
+    color: #4D5AE5;
+    background-color: #F4F4FD;
+    font-size: 16px;
+    line-height: 1.28;
+    font-style: Medium;
+}
+.butt:hover,
+.butt:focus {
+    color: white;
+    background-color: #404BBF;
+}
+
+.web {
+    color: #4D5AE5;
+    font-family: Raleway;
+    font-style: ExtraBold;
+    font-size: 18 px;
+    line-height: .99;
+}
+
+.studio {
+    color: #F4F4FD;
+    font-family: Raleway;
+    font-style: ExtraBold;
+    font-size: 18 px;
+    line-height: .99;
+}
+
+.textstudio {
+    color: #F4F4FD;
+    font-style: Regular;
+    font-size: 16 px;
+    line-height: 1.28;
+}
+
+.opiscard h3 {
+    color: #2E2F42;
+    font-style: Medium;
+    font-size: 20 px;
+    line-height: 1.02;
+}
+
+.typecard p {
+    color: #434455;
+    font-style: Regular;
+    font-size: 16 px;
+    line-height: 1.28;
 }
