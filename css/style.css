@@ -12,13 +12,18 @@ button {
     color: #4D5AE5;
 }
 
-.nav,
-.contacts {
+.nav a {
     color: #2E2F42;
+    font-family: 'Roboto"';
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+
 }
 
-.contacts:hover,
-.contacts:focus {
+.nav a:hover,
+.nav a:focus {
  color: red;
 }
 
@@ -27,12 +32,21 @@ button {
     background-color: #F4F4FD;
     font-size: 16px;
     line-height: 1.28;
+    letter-spacing: 0.02em;
     font-style: Medium;
 }
 .butt:hover,
 .butt:focus {
     color: white;
     background-color: #404BBF;
+}
+
+.contact {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-style: none;
 }
 
 .link {
