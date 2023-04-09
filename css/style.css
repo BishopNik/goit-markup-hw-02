@@ -7,11 +7,6 @@ body {
     background-color: #FFFFFF;
 }
 
-button {
-    cursor: pointer;
-    color: #4D5AE5;
-}
-
 .list a {
     color: #2E2F42;
     font-family: 'Roboto"';
@@ -24,19 +19,22 @@ button {
 
 .list a:hover,
 .list a:focus {
- color: red;
+ color: #FFFFFF;
+ background-color: #404BBF;
 }
 
-.butt {
+.butt button {
     color: #4D5AE5;
     background-color: #F4F4FD;
     font-size: 16px;
-    line-height: 1.28;
-    letter-spacing: 0.02em;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     font-style: Medium;
+    cursor: pointer;
 }
-.butt:hover,
-.butt:focus {
+.butt button:hover,
+.butt button:focus {
     color: white;
     background-color: #404BBF;
     text-decoration: none
@@ -48,8 +46,13 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-style: normal;
+    text-decoration: none;
 }
 
+.contact a:hover,
+.contact a:focus {
+    color: #404bbf;
+}
 
 .link {
     color: #4D5AE5;
