@@ -1,7 +1,10 @@
 :root  {
-    background-color: #FFFFFF;
     font-family: "Roboto", sans-serif;
     color: #434455;
+}
+
+body {
+    background-color: #FFFFFF;
 }
 
 button {
@@ -36,34 +39,15 @@ button {
     color: #4D5AE5;
     font-family: "Raleway", sans-serif;
     font-weight: 800;
-    font-size: 18 px;
+    font-size: 18px;
     line-height: 1.17;
     text-transform: uppercase;
     text-decoration: none;
+    letter-spacing: 0.03em
 }
 
-.studio {
-    font-family: "Raleway", sans-serif;
-    font-weight: 800;
-    font-size: 18 px;
-    line-height: 1.17;
-    text-transform: uppercase;
-    text-decoration: none;
-}
-
-.up {
+.studio-up {
     color: #2E2F42;
-}
-
-.down {
-    color: #F4F4FD;
-}
-
-.textstudio {
-    color: #F4F4FD;
-    font-style: Regular;
-    font-size: 16 px;
-    line-height: 1.28;
 }
 
 .opiscard h3 {
@@ -78,4 +62,34 @@ button {
     font-style: Regular;
     font-size: 16 px;
     line-height: 1.28;
+}
+
+.footer {
+    background-color: #2E2F42;
+}
+
+.logo {
+    color: #4D5AE5
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.studio-down {
+    color: #F4F4FD;
+}
+
+.textstudio {
+    color: #F4F4FD;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: top;
+    font-weight: 400;
 }
