@@ -35,7 +35,7 @@ button {
     background-color: #404BBF;
 }
 
-.web {
+.link {
     color: #4D5AE5;
     font-family: "Raleway", sans-serif;
     font-weight: 800;
@@ -50,22 +50,37 @@ button {
     color: #2E2F42;
 }
 
-.opiscard h3 {
-    color: #2E2F42;
-    font-style: Medium;
+.raboty h3 {
+color: #434455;
+    font-style: Regular;
     font-size: 20 px;
-    line-height: 1.02;
+    line-height: 1.28;
 }
 
-.typecard p {
-    color: #434455;
-    font-style: Regular;
+.raboty p {
+    color: #2E2F42;
+    font-style: Medium;
     font-size: 16 px;
-    line-height: 1.28;
+    line-height: 1.02;
 }
 
 .footer {
     background-color: #2E2F42;
+}
+
+.footer span {
+    color: #F4F4FD;
+}
+
+.footer p {
+    color: #F4F4FD;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: top;
+    font-weight: 400;
 }
 
 .logo {
@@ -77,19 +92,4 @@ button {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
-}
-
-.studio-down {
-    color: #F4F4FD;
-}
-
-.textstudio {
-    color: #F4F4FD;
-    font-family: "Roboto";
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-decoration: top;
-    font-weight: 400;
 }
