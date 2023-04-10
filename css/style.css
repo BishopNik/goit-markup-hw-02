@@ -1,6 +1,7 @@
 :root  {
     font-family: "Roboto", sans-serif;
     --text-color: #2E2F42;
+    --butt-color-hover: #404bbf;
 }
 
 body {
@@ -44,7 +45,7 @@ body {
 
 .sectionmain1-but:hover, 
 .sectionmain1-but:focus {
-    background-color: #404BBF;
+    background-color: var(--butt-color-hover);
 }
 
 .sectionmain2-h3 {
@@ -122,7 +123,7 @@ body {
 
 .list-link:hover,
 .list-link:focus {
-    color:#404bbf;
+    color: var(--butt-color-hover);
 }
 
 .contact {
@@ -137,7 +138,7 @@ body {
     color: #404bbf;
 }
 
-.butts-punct {
+.butts-punkt {
     color: #4D5AE5;
     background-color: #F4F4FD;
     font-family: "Roboto", sans-serif;
@@ -147,8 +148,8 @@ body {
     letter-spacing: 0.04em;
     cursor: pointer;
 }
-.butts-punct:hover,
-.butts-punct:focus {
+.butts-punkt:hover,
+.butts-punkt:focus {
     color: white;
     background-color: #404BBF;
 }
