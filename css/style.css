@@ -84,6 +84,10 @@ body {
     letter-spacing: 0.03em;
 }
 
+.studio {
+    color: #F4F4FD;
+}
+
 .studio-up {
     color: #2E2F42;
 }
@@ -110,11 +114,7 @@ body {
     background-color: #2E2F42;
 }
 
-.studio {
-    color: #F4F4FD;
-}
-
-.footer p {
+.textstudio {
     color: #F4F4FD;
     font-family: "Roboto";
     font-weight: 400;
