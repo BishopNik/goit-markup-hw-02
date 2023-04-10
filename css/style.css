@@ -117,6 +117,14 @@ body {
     color: var(--text-color);
 }
 
+.list-link.class-dop,
+.contact.class-dop,
+.logo.class-dop,
+.card-name.class-dop,
+.card-type.class-dop {
+    text-decoration: none;
+}
+
 .list-link:hover,
 .list-link:focus {
     color: var(--butt-color-hover);
