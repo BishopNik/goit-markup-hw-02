@@ -1,19 +1,24 @@
+body {
+    background-color: #FFFFFF;
+    color:#2E2F42;
+    font-family: "Roboto", sans-serif;
+}
+
 :root  {
     font-family: "Roboto", sans-serif;
     color: #434455;
 }
 
-body {
-    background-color: #FFFFFF;
-    font-family: "Roboto", sans-serif;
+.class-dop {
+    text-decoration: none;
+}
+
+.list-dop {
+    list-style: none; 
 }
 
 .address {
     font-style: normal;
-}
-
-.list {
-  list-style: none;  
 }
 
 .list-link {
@@ -41,13 +46,6 @@ body {
     color: #404bbf;
 }
 
-.class-dop {
-    text-decoration: none;
-}
-
-.butts {
-    list-style: none;
-}
 .butts-punct {
     color: #4D5AE5;
     background-color: #F4F4FD;
@@ -62,10 +60,6 @@ body {
 .butts-punct:focus {
     color: white;
     background-color: #404BBF;
-}
-
-.card {
-    list-style: none;
 }
 
 .card-name {
@@ -106,12 +100,10 @@ body {
 }
 
 .textstudio {
-    color: #F4F4FD;
-    font-family: "Roboto";
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #F4F4FD;
     text-decoration: top;
-    font-weight: 400;
 }
