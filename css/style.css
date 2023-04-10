@@ -58,6 +58,10 @@ body {
     color: #404bbf;
 }
 
+.logot {
+    text-decoration: none;
+}
+
 .logo {
     color: #4D5AE5;
     font-family: "Raleway", sans-serif;
@@ -65,7 +69,6 @@ body {
     font-size: 18px;
     line-height: 1.17;
     text-transform: uppercase;
-    text-decoration: none;
     letter-spacing: 0.03em;
 }
 
@@ -77,7 +80,7 @@ body {
     list-style: none;
 }
 
-.element h2 {
+.name {
     color: #2E2F42;
     font-family: "Roboto";
     font-weight: 500;
@@ -86,7 +89,7 @@ body {
     letter-spacing: 0.02em;
 }
 
-.element p {
+.type {
     color: #434455;
     font-family: "Roboto";
     font-weight: 400;
