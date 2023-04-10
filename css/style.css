@@ -1,21 +1,103 @@
 body {
     background-color: #FFFFFF;
-    color:#2E2F42;
+    color:#434455;
     font-family: "Roboto", sans-serif;
 }
 
 :root  {
     font-family: "Roboto", sans-serif;
-    color: #434455;
 }
 
 .class-dop {
     text-decoration: none;
 }
 
-.list-dop {
+.list {
     list-style: none; 
 }
+
+.sectionmain1 {
+    background-color: #2E2F42;
+}
+
+.sectionmain1-h1 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color:#ffffff;
+}
+.sectionmain1-but {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    cursor: pointer;
+    background-color: #4D5AE5;
+}
+
+.sectionmain1-but:hover, 
+.sectionmain1-but:focus {
+    background-color: #404BBF;
+}
+
+.sectionmain2-h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.sectionmain2-p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.sectionmain3-h2,
+.sectionmain4-h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+ .sectionmain4-h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+ }
+
+ .sectionmain4-p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;   
+    letter-spacing: 0.02em;
+    color: #434455;
+ }
 
 .address {
     font-style: normal;
