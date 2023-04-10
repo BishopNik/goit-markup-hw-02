@@ -89,6 +89,14 @@ body {
     color: #2E2F42;
  }
 
+ .sectionmain4 {
+    background-color: ##F4F4FD;
+}
+
+.sectionmain4-li {
+    background-color: #FFFFFF;
+}
+
  .sectionmain4-p {
     font-family: 'Roboto';
     font-style: normal;
