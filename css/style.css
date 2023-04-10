@@ -87,6 +87,15 @@ body {
     color: var(--text-color);
  }
 
+ .teem-name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+ }
+
  .teem {
     background-color: #F4F4FD;
 }
