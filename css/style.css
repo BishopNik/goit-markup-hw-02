@@ -8,29 +8,47 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+.address {
+    font-style: normal;
+}
+
 .list {
   list-style: none;  
 }
 
-.list a {
-    color: #2E2F42;
-    font-family: 'Roboto"';
+.list-link {
     font-weight: 500;
     font-size: 16px;
-    letter-spacing: 0.02em;
     line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
-.list a:hover,
-.list a:focus {
- color: #FFFFFF;
- background-color: #404BBF;
+.list-link:hover,
+.list-link:focus {
+    color:#404bbf;
+}
+
+.contact {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.contact:hover,
+.contact:focus {
+    color: #404bbf;
+}
+
+.class-dop {
+    text-decoration: none;
 }
 
 .butts {
     list-style: none;
 }
-.butt {
+.butts-punct {
     color: #4D5AE5;
     background-color: #F4F4FD;
     font-family: "Roboto", sans-serif;
@@ -38,50 +56,41 @@ body {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    font-style: Medium;
     cursor: pointer;
 }
-.butt:hover,
-.butt:focus {
+.butts-punct:hover,
+.butts-punct:focus {
     color: white;
     background-color: #404BBF;
-    text-decoration: none
 }
 
 .card {
     list-style: none;
 }
 
-.element {
-    text-decoration: none;
+.card-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
 }
 
-.contact {
-    color: #434455;
+.card-type {    
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    font-style: normal;
-    text-decoration: none;
-}
-
-.contact a:hover,
-.contact a:focus {
-    color: #404bbf;
-}
-
-.logodop{
-    text-decoration: none;
+    color: #434455;    
 }
 
 .logo {
-    color: #4D5AE5;
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    text-transform: uppercase;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
 }
 
 .studio {
@@ -90,24 +99,6 @@ body {
 
 .studio-up {
     color: #2E2F42;
-}
-
-.name {
-    color: #2E2F42;
-    font-family: "Roboto";
-    font-weight: 500;
-    font-size: 20 px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-
-.type {
-    color: #434455;
-    font-family: "Roboto";
-    font-weight: 400;
-    font-size: 16px;
-    letter-spacing: 0.02em;
-    line-height: 1.5;
 }
 
 .footer {
