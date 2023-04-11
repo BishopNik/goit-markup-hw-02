@@ -121,15 +121,6 @@ body {
     color: var(--text-color);
 }
 
-.class-dop,
-.link.class-dop,
-.contact.class-dop,
-.logo.class-dop,
-.card-name.class-dop,
-.card-type.class-dop {
-    text-decoration: none;
-}
-
 .link:hover,
 .link:focus {
     color: var(--butt-color-hover);
@@ -207,4 +198,13 @@ body {
     letter-spacing: 0.02em;
     color: #F4F4FD;
     text-decoration: top;
+}
+
+.class-dop,
+.link.class-dop,
+.contact.class-dop,
+.logo.class-dop,
+.card-name.class-dop,
+.card-type.class-dop {
+    text-decoration: none;
 }
