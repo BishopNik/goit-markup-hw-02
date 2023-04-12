@@ -111,6 +111,7 @@ body {
 .butts-punkt {
     color: #4D5AE5;
     background-color: #F4F4FD;
+    ont-family: "Roboto", sans-serif
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -172,7 +173,6 @@ body {
     text-decoration: none;
 }
 
-.active {
-    border-style: dotted;
-    border-color: #4D5AE5;
+.address {
+   font-style: normal 
 }
