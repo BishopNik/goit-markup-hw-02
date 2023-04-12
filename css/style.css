@@ -2,10 +2,12 @@
     font-family: "Roboto", sans-serif;
     --text-color: #2E2F42;
     --butt-color-hover: #404bbf;
+    --color-white: #FFFFFF;
+    --color-main-font: #434455;
 }
 
 body {
-    background-color: #FFFFFF;
+    background-color: var(--color-white);
     color:#434455;
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -26,7 +28,7 @@ body {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color:#ffffff;
+    color: var(--color-white);
 }
 .banner-but {
     font-family: "Roboto", sans-serif;
@@ -36,7 +38,7 @@ body {
     display: flex;
     align-items: center;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
+    color: var(--color-white);
     cursor: pointer;
     background-color: #4D5AE5;
 }
@@ -46,8 +48,8 @@ body {
     background-color: var(--butt-color-hover);
 }
 
-.tech-h {
-    font-family: 'Roboto';
+.tech-h,
+.teem-name {
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -58,20 +60,15 @@ body {
 
 .tech-p,
 .teem-p {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--color-main-font);
 }
 
 .tech-t,
 .service-h,
 .teem-h {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -81,39 +78,15 @@ body {
     color: var(--text-color);
 }
 
-.teem-name {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--text-color);
- }
-
 .teem {
     background-color: #F4F4FD;
 }
 
 .teem-li {
-    background-color: #FFFFFF;
+    background-color: var(--color-white);
 }
 
-.teem-p {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;   
-    letter-spacing: 0.02em;
-    color: #434455;
- }
-
-.address {
-    font-style: normal;
-}
-
-.link {
+.nav {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -121,8 +94,10 @@ body {
     color: var(--text-color);
 }
 
-.link:hover,
-.link:focus {
+.nav:hover,
+.nav:focus,
+.contact:hover,
+.contact:focus {
     color: var(--butt-color-hover);
 }
 
@@ -130,18 +105,12 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.contact:hover,
-.contact:focus {
-    color: #404bbf;
+    color: var(--color-main-font);
 }
 
 .butts-punkt {
     color: #4D5AE5;
     background-color: #F4F4FD;
-    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -150,8 +119,8 @@ body {
 }
 .butts-punkt:hover,
 .butts-punkt:focus {
-    color: white;
-    background-color: #404BBF;
+    color: var(--color-white);
+    background-color: var(--butt-color-hover);
 }
 
 .card-name {
@@ -192,7 +161,6 @@ body {
 }
 
 .textstudio {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -200,12 +168,7 @@ body {
     text-decoration: top;
 }
 
-.class-dop,
-.link.class-dop,
-.contact.class-dop,
-.logo.class-dop,
-.card-name.class-dop,
-.card-type.class-dop {
+.link {
     text-decoration: none;
 }
 
