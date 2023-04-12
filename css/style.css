@@ -4,6 +4,8 @@
     --butt-color-hover: #404bbf;
     --color-white: #FFFFFF;
     --color-main-font: #434455;
+    --main-font: "Roboto", sans-serif;
+    --sec-font: "Raleway", sans-serif;
 }
 
 body {
@@ -31,7 +33,7 @@ body {
     color: var(--color-white);
 }
 .banner-but {
-    font-family: "Roboto", sans-serif;
+    font-family: var(--main-font);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -111,7 +113,7 @@ body {
 .butts-punkt {
     color: #4D5AE5;
     background-color: #F4F4FD;
-    font-family: "Roboto", sans-serif;
+    font-family: var(--main-font);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -140,7 +142,7 @@ body {
 }
 
 .logo {
-    font-family: "Raleway", sans-serif;
+    font-family: var(--sec-font);
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
