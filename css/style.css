@@ -208,3 +208,8 @@ body {
 .card-type.class-dop {
     text-decoration: none;
 }
+
+.active {
+    border-style: dotted;
+    border-color: #4D5AE5;
+}
